@@ -1,0 +1,74 @@
+body{
+    background-image: url('tkmwfdafhbp81.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgb(21, 18, 65);
+    border-radius: 25px;
+}
+table.list{
+    text-align: center; 
+    width: 100%;
+}
+
+td{
+    border: 3px solid;
+    border-radius: 25px;
+    text-align: left;
+    color: rgb(253, 90, 152);
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: beige;
+}
+
+input[type="text"],input[type="number"]{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background-color: aliceblue;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(253, 90, 152)
+}
+
+input[type="reset"]:hover{
+    background-color: rgb(253, 90, 152)
+}
+
+button{
+    background-color: aliceblue;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background-color: rgb(253, 90, 152)
+}

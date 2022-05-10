@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud App</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="film">Film</label>
+                        <input type="text" name="film" id="film">
+                    </div>
+                    <div>
+                        <label for="director">Director</label>
+                        <input type="text" name="director" id="director">
+                    </div>
+                    <div>
+                        <label for="year">Year</label>
+                        <input type="number" name="year" id="year">
+                    </div>
+                    <div>
+                        <label for="rating">Rating</label>
+                        <input type="text" name="rating" id="rating">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="catalog" id="filmCatalog">
+                        <thead>
+                            <tr>
+                                <th>Film</th>
+                                <th>Director</th>
+                                <th>Year</th>
+                                <th>Rating</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script src="crud.js"></script>
+</body>
+</html>
